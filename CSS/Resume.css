@@ -1,0 +1,220 @@
+    *{
+        margin: 0px;
+    }
+    .a{
+        height: 1000px;
+        width: 700px;
+        outline: 1px solid black;
+        position: relative;
+        top: 100px;
+        left: 300px;
+    }
+    .p1{
+        height: 1000px;
+        width: 250px;
+        outline: 1px solid black;
+        float: left;
+        background-color: thistle;
+    }
+    .p2{
+        height: 1000px;
+        width: 450px;
+        outline: 1px solid black;
+        float: right;
+    }
+    .photo{
+        height: 190px;
+        width: 170px;
+        background-color: aliceblue;
+        outline: 1px solid black;
+        position: relative;
+        top: 50px;
+        left: 40px;
+    }
+    .profile{
+        height:170px;
+        width:150px;
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    .name{
+        height: 100px;
+        width: 490px;
+        background-color: cornflowerblue;
+        position: relative;
+        top: 100px;
+        right: 40px;
+        outline: 1px solid black;
+    }
+    .name1{
+        position: relative;
+        top: 40px;
+        left: 85px;
+        font-size: 25px;
+    }
+    .phn{
+        height: 35px;
+        width: 35px;
+        background-color: gold;
+        position: relative;
+        top: 100px;
+        left: 40px;
+    }
+    .phn1{
+        height: 20px;
+        width: 160px;
+        /* outline: 1px solid black; */
+        position: relative;
+        top: 70px;
+        left: 80px;
+    }
+    .mail{
+        height: 35px;
+        width: 35px;
+        background-color: gold;
+        position: relative;
+        top: 100px;
+        left: 40px;
+    }
+    .mail1{
+        height: 20px;
+        width: 160px;
+        /* outline: 1px solid black; */
+        position: relative;
+        top: 75px;
+        left: 80px;
+    }
+    .site{
+        height: 35px;
+        width: 35px;
+        background-color: gold;
+        position: relative;
+        top: 100px;
+        left: 40px;
+    }
+    .site1{
+        height: 20px;
+        width: 160px;
+        /* outline: 1px solid black; */
+        position: relative;
+        top: 75px;
+        left: 80px;
+    }
+    .location{
+        height: 35px;
+        width: 35px;
+        background-color: gold;
+        position: relative;
+        top: 100px;
+        left: 40px;
+    }
+    .location1{
+        height: 40px;
+        width: 160px;
+        /* outline: 1px solid black; */
+        position: relative;
+        top: 65px;
+        left: 80px;
+    }
+    i{
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    .exp{
+        position: relative;
+        top: 140px;
+        left: 30px;
+        font-weight: light;
+    }
+    .ul1{
+        position: relative;
+        top: 160px;
+        font-size: large;
+    }
+    .ul2{
+        position: relative;
+        top: 200px;   
+        font-size: large;
+    }
+    .lan{
+        position: relative;
+        top: 180px;
+        left: 30px;
+        font-weight: light;
+    }
+    .content{
+        height: 800px;
+        width: 450px;
+        /* outline: 2px solid red; */
+        position: relative;
+        top: 100px;
+    }
+    .edu{
+        
+        font-weight: bolder;
+        border-bottom: 2px solid yellow;
+        margin: 0px 0px 30px 30px;
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .dip{
+        /* position: relative;
+        top: 130px;
+        left: 50px; */
+        padding: 0px 0px 30px 30px;
+    }
+    .dip1{
+        /* position: relative;
+        top: 150px;
+        left: 50px; */
+        font-size: larger;
+        padding: 0px 0px 30px 30px;
+
+    }
+    .dip2{
+        /* position: relative;
+        top: 180px;
+        left: 50px; */
+        padding: 0px 0px 30px 30px;
+
+    }
+    .dip3{
+        /* position:relative;
+        top: 220px;
+        left: 50px; */
+        padding: 0px 0px 30px 30px;
+    }
+    .dip4{
+        /* position:relative;
+        top: 230px;
+        left: 50px; */
+        font-size: larger;
+        padding: 0px 0px 30px 30px;
+    }
+    .dip5{
+        /* position: relative;
+        top: 240px;
+        left: 50px; */
+        padding: 0px 0px 30px 30px;
+    }
+    .dip6{
+        /* position: relative;
+        top: 340px;
+        left: 50px; */
+        padding: 0px 0px 30px 30px;
+    }
+    .dip7{
+        /* position: relative;
+        top: 290px;
+        left: 50px; */
+        font-size: larger;
+        padding: 0px 0px 30px 30px;
+    }
+    .dip8{
+        /* position: relative;
+        top: 330px;
+        left: 50px; */
+        padding: 0px 0px 30px 30px;
+    }

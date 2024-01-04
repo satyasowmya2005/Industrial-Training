@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Form Tag</title>
+    </head>
+    <body>
+        <center>
+            <h1>Student Registration Form</h1></center>
+            <form>
+                <label>Enter Student Name: </label>
+                <input type="text" autofocus placeholder="enter name"><br>
+                <label>Enter Pin number:</label>
+                <input type="text" value="000000"><br>
+                <label>Enter Mobile Number:</label>
+                <input type="number" maxlength="10" placeholder="enter mobile"><br>
+                Enter DOB:<input type="date"><br>
+                Select Gender:<br>
+                Male<input type="radio" name="gender"><br>
+                Female<input type="radio" name="gender"><br>
+                Enter email address:<input type="email" required placeholder="abc@gmail.com"><br>
+                Create a password:<input type="password" minlength="8" placeholder="minimum 8 digits"><br>
+                Select Branch :<select>
+                    <option>CME</option>
+                    <option>CCN</option>
+                    <option>ECE</option>
+                    <option>EEE</option>
+                    <option>MECH</option>
+                </select><br>
+                Select College :<select>
+                    <option>AEC</option>
+                    <option>ACET</option>
+                    <option>ACOE</option></select><br>
+            <label>Select courses :</label><br>
+            C<input type="checkbox" name="C"><br>
+            CPP<input type="checkbox" name="CPP"><br>
+            Java<input type="checkbox" name="Java"><br>
+            Python<input type="checkbox" name="Python"><br>
+           Select a file :
+           <select readonly>
+            <option></option>
+           </select><br>
+           <textarea disabled>
+           </textarea>
+           <br><br><input type="Submit">
+           <input type="reset">
+        </form>
+    </body>
+</html>

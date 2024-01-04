@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+}
+.main{
+    position: relative;
+    height: 650px;
+    width: 100%;
+    background-color:blueviolet;
+}
+.features{
+    width: 100px;
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+}
+span{
+    color: white;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.i{
+    height: 150px;
+    width: 150px;
+}
+.a{
+    height: 240px;
+    width: 200px;
+    background-color:white;
+    /* border-radius: 20px; */
+    position: relative;
+    left: 230px;
+    top: 30px;
+}
+.b{
+    height: 240px;
+    width: 200px;
+    background-color:white;
+    /* border-radius: 15px; */
+    position: relative;
+    left: 530px;
+    bottom: 210px;
+}
+.c{
+    height: 240px;
+    width: 200px;
+    background-color:white;
+    /* border-radius: 15px; */
+    position: relative;
+    bottom: 450px;
+    left: 830px;
+}
+.d{
+    height: 240px;
+    width: 200px;
+    background-color:white;
+    /* border-radius: 15px; */
+    position: relative;
+    bottom: 430px;
+    left: 230px;
+}
+.e{
+    height: 240px;
+    width: 200px;
+    background-color:white;
+    /* border-radius: 15px; */
+    position: relative;
+    bottom: 670px;
+    left: 530px;
+}
+.f{
+    height: 240px;
+    width: 200px;
+    background-color:white;
+    /* border-radius: 15px; */
+    position: relative;
+    bottom: 910px;
+    left: 830px;
+}
+h5{
+    color: rgb(130, 76, 180);
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    font-size:medium;
+}
+p{
+    color: rgb(130, 76, 180);
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+    font-size: small;
+}
+.button1{
+    height: 20px;
+    width: 100px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    position: relative;
+    bottom: 10px;
+    left: 30px;
+}
