@@ -53,7 +53,7 @@
 .circle{
     height: 100px;
     width: 100px;
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
     border-radius: 200px;
     position: relative;
     top: 30px;
@@ -63,7 +63,7 @@
 .name{
     height: 50px;
     width: 150px;
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
     float: right;
     position: relative;
     right: 10px;

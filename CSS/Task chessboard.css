@@ -1,0 +1,15 @@
+.a{
+    background-color:antiquewhite;
+}
+.b{
+    background-color: rgba(30, 29, 29, 0.779);
+}
+td{
+    height:50px;
+    width: 50px;
+}
+div{
+    height: 470px;
+    width:480px;
+    border: 2px solid black;
+}

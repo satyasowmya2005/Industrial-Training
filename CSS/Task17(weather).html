@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        .main{
+            height: 600px;
+            width: 100%;
+            background-color: aliceblue;
+        }
+        .head{
+            height: 50px;
+            width: 100%;
+            background-color: rgb(91, 91, 224);
+            color: white;
+        }
+        .left{
+            height: 300px;
+            width: 350px;
+            float: left;
+        }
+        h2{
+            padding-top: 10px;
+        }
+        h4{
+            padding: 20px;
+            font-weight:bold;
+        }
+        .i1{
+            margin-left: 20px;
+            height: 20px;
+            width: 250px;
+        }
+        .b1{
+            height: 30px;
+            width: 260px;
+            background-color: rgb(91, 91, 224);
+            color: white;
+            position: absolute;
+            top: 150px;
+            left: 20px;
+            border-radius: 3px;
+            border-color: rgb(91, 91, 224);
+        }
+        .hr1{
+            border-bottom: 1px solid black;
+            width: 115px;
+            position: relative;
+            top: 70px;
+            left: 20px;
+        }
+        .hr2{
+            border-bottom: 1px solid black;
+            width: 115px;
+            position: relative;
+            top: 48px;
+            left: 160px;
+        }
+        .or{
+            height: 20px;
+            width: 20px;
+            position: relative;
+            top: 60px;
+            left: 140px;
+        }
+        .ucl{
+            height: 25px;
+            width: 200px;
+            background-color: dimgrey;
+            position: relative;
+            top: 70px;
+            left: 20px;
+            color: white;
+            padding-left: 60px;
+            padding-top: 5px;
+        }
+        .right{
+            height: 400px;
+            width: 800px;
+            float: left;
+            position: relative;
+            top: 20px;
+            left: 50px;
+        }
+        .r1{
+            height: 150px;
+            width: 800px;
+            background-color: rgb(91, 91, 224);
+            color: white;
+        }
+        .a1{
+            height: 170px;
+            width: 140px;
+            background-color: dimgray;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            float: left;
+            border-radius: 5px;
+            color: white;
+        }
+        .a2{
+            height: 170px;
+            width: 140px;
+            background-color: dimgray;
+            position: relative;
+            top: 20px;
+            left: 60px;
+            float: left;
+            border-radius: 5px;
+            color: white;
+        }
+        .a3{
+            height: 170px;
+            width: 140px;
+            background-color: dimgray;
+            position: relative;
+            top: 20px;
+            left: 100px;
+            float: left;
+            border-radius: 5px;
+            color: white;
+        }
+        .a4{
+            height: 170px;
+            width: 140px;
+            background-color: dimgray;
+            position: relative;
+            top: 20px;
+            left: 140px;
+            float: left;
+            border-radius: 5px;
+            color: white;
+        }
+        .a1sub{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        .a2sub{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        .a3sub{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        .a4sub{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        .im1{
+            height: 70px;
+            width: 70px;
+            position: relative;
+            top: 30px;
+            left: 650px;
+        }
+        .im2{
+            height: 30px;
+            width: 30px;
+            position: relative;
+            top: 30px;
+            left: 10px;
+        }
+        .im3{
+            height: 30px;
+            width: 30px;
+            position: relative;
+            top: 30px;
+            left: 10px;
+            font-size: x-large;
+        }
+        .im4{
+            height: 30px;
+            width: 30px;
+            position: relative;
+            top: 30px;
+            left: 10px;
+        }
+        .im5{
+            height: 30px;
+            width: 30px;
+            position: relative;
+            top: 30px;
+            left: 10px;
+        }
+        .r1sub{
+            position: absolute;
+            top: 0px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <center>
+            <h2>Weather Dashboard</h2>
+            </center>
+        </div>
+        <div class="left">
+            <h4>Enter a city Name</h4>
+            <input class="i1" type="text" placeholder="E.g.,New York,London,Tokyo">
+            <button class="b1">Search</button>
+            <div class="hr1"></div>
+            <div class="or">or</div>
+            <div class="hr2"></div>
+            <div class="ucl">
+                <span>Use Current Location</span>
+            </div>
+        </div>
+        <div class="right">
+            <div class="r1">
+                <img class="im1" src="../images/cloud-drops.png">
+                <div class="r1sub">
+                    <h3>London (2023-06-19)</h3><br>
+                    <p>Temperature: 18.71 C</p><br>
+                    <p>Wind:4.31 M/S</p><br>
+                    <p>Humidity:76%</p>
+                </div>
+            </div>
+            <br>
+            <h3>4-Day Forecast</h1>
+            <div class="a1">
+                <img class="im2" src="../images/sun-cloud.png">
+                <div class="a1sub">
+                    <span>(2023-06-20)</span><br><br><br>
+                    <p>Temp: 18.71 C</p><br>
+                    <p>Wind:4.31 M/S</p><br>
+                    <p>Humidity:76%</p>
+                </div>
+            </div>
+            <div class="a2">
+                <img class="im3" src="../images/sun.png">
+                <div class="a2sub">
+                    <span>(2023-06-21)</span><br><br><br>
+                    <p>Temp: 16.78 C</p><br>
+                    <p>Wind:2.72 M/S</p><br>
+                    <p>Humidity:83%</p>
+                </div> 
+            </div>
+            <div class="a3">
+                <img class="im4" src="../images/storm.png">
+                <div class="a3sub">
+                    <span>(2023-06-22)</span><br><br><br>
+                    <p>Temp: 18.20 C</p><br>
+                    <p>Wind:1.49 M/S</p><br>
+                    <p>Humidity:72%</p>
+                </div>
+            </div>
+            <div class="a4">
+                <img class="im5" src="../images/rainy-day.png">
+                <div class="a4sub">
+                    <span>(2023-06-23)</span><br><br><br>
+                    <p>Temp: 17.08 C</p><br>
+                    <p>Wind:0.9 M/S</p><br>
+                    <p>Humidity:89%</p>
+                </div>   
+            </div>
+        </div>
+    </div>
+</body>
+</html>
