@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap cards</title>
+    <link rel="stylesheet" href="../Bootstrap/bootstrap/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Bootstrap/bootstrap/Bootstrap/js/bootstrap.min.js">
+    <style>
+        #main{
+            background-color: rgb(246, 244, 244);
+            height: 550px;
+        }
+        h3{
+            text-align: center;
+        }
+        h4{
+            position: relative;
+            bottom: 20px;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        .card{
+            width: 240px;
+            position: relative;
+            top: 50px;
+        }
+        img{
+            position: relative;
+            bottom: 15px;
+            left: 60px;
+        }
+        .role{
+            font-weight: 500;
+            /* position: relative;
+            bottom: 25px; */
+        }
+        i{
+            margin-left: 30px;
+            font-size: 25px;
+        }
+        #card1:hover{
+            background-color: orangered;
+        }
+        .card{
+            box-shadow: 3px 3px 7px orangered;
+        }
+        .card:hover{
+            background-color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid" id="main">
+        <h3>Our Team</h3>
+        <p>It is a long established fact that a reader will be distracted by the <br>readable content of a page when looking at its layout.</p>
+        <div class="container">
+            <div class="row">
+                <div class="card" style="margin-left: 20px;">
+                    <img src="../images/user2.jpg" style="height: 100px;width: 100px;border-radius: 100px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">Susan Williams</h5>
+                      <p class="role">Lead Writer</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <i class="fa-brands fa-facebook-f"></i>
+                      <i class="fa-brands fa-twitter"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="card" style="margin-left: 20px;">
+                    <img src="../images/user3.jpg" style="height: 100px;width: 100px;border-radius: 100px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">Johnny Lesh</h5>
+                      <p class="role">Co-writer</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <i class="fa-brands fa-facebook-f"></i>
+                      <i class="fa-brands fa-twitter"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="card" style="margin-left: 20px;">
+                    <img src="../images/user4.jpg" style="height: 100px;width: 100px;border-radius: 100px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">Katy Lenova</h5>
+                      <p class="role">Editor</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <i class="fa-brands fa-facebook-f"></i>
+                      <i class="fa-brands fa-twitter"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                    </div>
+                  </div>
+                  <div class="card" style="margin-left: 20px;">
+                    <img src="../images/user5.jpg" style="height: 100px;width: 100px;border-radius: 100px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">Castro Delga</h5>
+                      <p class="role">Designer</p>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <i class="fa-brands fa-facebook-f"></i>
+                      <i class="fa-brands fa-twitter"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    
+</body>
+</html>
