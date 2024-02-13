@@ -1,0 +1,110 @@
+*{
+    margin: 10px;
+    width: 100%;
+}
+.main{
+    position: relative;
+    left: 300px;
+    height: 750px;
+    width: 600px;
+    /* width: 100%; */
+    background-color:blueviolet;
+}
+.features{
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    left: 230px;
+}
+span{
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 150px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.a{
+    height: 280px;
+    width: 170px;
+    background-color:white;
+    border-radius: 15px;
+    position: relative;
+    left: 15px;
+    top: 60px;
+}
+/* .img1{
+    height: 120px;
+    width: 140px;
+    border: 1px solid black;
+    background-image: url("../images/vd_pro.jpg");
+} */
+.b{
+    height: 280px;
+    width: 170px;
+    background-color:white;
+    border-radius: 15px;
+    position: relative;
+    left: 205px;
+    bottom: 230px;
+}
+.c{
+    height: 280px;
+    width: 170px;
+    background-color:white;
+    border-radius: 15px;
+    position: relative;
+    bottom: 520px;
+    left: 395px;
+}
+.d{
+    height: 280px;
+    width: 170px;
+    background-color:white;
+    border-radius: 15px;
+    position: relative;
+    bottom: 520px;
+    left: 15px;
+}
+.e{
+    height: 280px;
+    width: 170px;
+    background-color:white;
+    border-radius: 15px;
+    position: relative;
+    bottom: 810px;
+    left: 205px;
+}
+.f{
+    height: 280px;
+    width: 170px;
+    background-color:white;
+    border-radius: 15px;
+    position: relative;
+    bottom: 1100px;
+    left: 395px;
+}
+h5{
+    color: rgb(130, 76, 180);
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    font-size:medium;
+}
+p{
+    color: rgb(130, 76, 180);
+    position: relative;
+    bottom: 25px;
+    font-size: small;
+}
+.button1{
+    height: 20px;
+    width: 100px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    position: relative;
+    bottom: 45px;
+    left: 20px;
+}

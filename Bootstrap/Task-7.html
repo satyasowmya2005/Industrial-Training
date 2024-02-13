@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Task</title>
+    <link rel="stylesheet" href="../Bootstrap/bootstrap/CSS/bootstrap.min.css">
+    <script src="../Bootstrap/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <style>
+        body{
+            background-color: rgb(227, 223, 223);
+        }
+        .container-fluid{
+            height: 130px;
+        }
+        .card{
+            width: 270px;
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+        #cont2{
+            background-color: rgb(227, 223, 223);
+            height: 500px;
+        }
+        h6{
+            margin-top: 0px;
+        }
+        i{
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid bg-primary">
+        <button type="button" class="btn btn-light" style="float: right;width:max-content;">Create New Project</button>
+        <h4 style="color: white;">Projects</h4>
+        <div class="card" style="float: left;height: 152px;">
+            <div class="card-body" style="float: left">
+              <h5>Projects</h5>
+              <div style="height: 40px;width: 40px;background-color: rgb(211, 211, 240);float: right;">
+                <i class="fa-solid fa-bag-shopping" style="float: right;position: relative;margin-top: 12px;margin-right: 13px;"></i>
+              </div>
+              <h2>18</h2>
+              <p>2 completed</p>
+            </div>
+        </div>
+        <div class="card" style="float: left;">
+            <div class="card-body">
+                <h5>Active Task</h5>
+                <div style="height: 40px;width: 40px;background-color: rgb(211, 211, 240);float: right;">
+                    <i class="fa-solid fa-list" style="margin-left: 10px;margin-top: 10px;"></i>
+                  </div>
+                <h2>132</h2>
+                <p>28 completed</p>
+              </div>
+        </div>
+        <div class="card" style="float: left;">
+            <div class="card-body">
+                <h5>Teams</h5>
+                <div style="height: 40px;width: 40px;background-color: rgb(211, 211, 240);float: right;">
+                    <i class="fa-solid fa-users" style="margin-left: 10px;margin-top: 10px;"></i>
+                  </div>
+                <h2>12</h2>
+                <p>1 completed</p>
+              </div>
+        </div>
+        <div class="card" style="float: left;">
+            <div class="card-body">
+                <h5>Productivity</h5>
+                <div style="height: 40px;width: 40px;background-color: rgb(211, 211, 240);float: right;">
+                    <i class="fa-solid fa-gear" style="margin-left: 10px;margin-top: 10px;"></i>
+                  </div>
+                <h2>76%</h2>
+                <p>5% completed</p>
+              </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="cont2">
+        <div class="container" style="background-color: white;width: 1200px;">
+             <h6 style="margin-top: 100px;">Active projects</h6>
+             <div class="row">
+                <div class="col md 5 bg-light">PROJECT NAME</div>
+                <div class="col md 5 bg-light">HOURS</div>
+                <div class="col md 5 bg-light">PRIORITY</div>
+                <div class="col md 5 bg-light">MEMBERS</div>
+                <div class="col md 5 bg-light">PROGRESS</div>
+            </div><hr>
+            <div class="row">
+                <div class="col md 5">
+                    <i class="fa-brands fa-dropbox" style="float: left;color: #3b82fc;"></i>
+                    <div class="col md 5" style="float: right;">Dropbox Design System</div>
+                </div>
+                <!-- <div class="icon" style="float: left;">
+                    <i class="fa-brands fa-dropbox" style="color: #3b82fc;display: inline;float: left;margin-top: 15px;"></i>
+                </div>
+                <div class="col md 5" style="margin-left: 25px;margin-top: -10px;display: inline;float: right;">Dropbox Design System</div> -->
+                <div class="col md 5">34</div>
+                <div class="col md 5"></div>
+                <div class="col md 5">
+                    <img src="../images/user2.jpg" style="height: 40px;width: 40px;border-radius: 40px;" alt="...">
+                    <img src="../images/user5.jpg" style="height: 40px;width: 40px;border-radius: 40px;margin-left: -25px;" alt="...">
+                    <img src="../images/user4.jpg" style="height: 40px;width: 40px;border-radius: 40px;margin-left: -25px;" alt="...">
+                    <!-- <div style="height: 40px;width: 40px;border-radius: 40px;background-color: blue;"></div> -->
+                </div>
+                <div class="col md 5">
+                    <span>15%</span>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                </div>
+            </div><hr>
+            <div class="row">
+                <div class="col md 5">
+                    <i class="fa-brands fa-slack" style="color: #f00054;"></i>
+                    <div class="col md 5" style="float: right;margin-right: 20px;">Slack Team UI Design</div>
+                </div>
+                <div class="col md 5">47</div>
+                <div class="col md 5"></div>
+                <div class="col md 5">
+                    <img src="../images/user4.jpg" style="height: 40px;width: 40px;border-radius: 40px;" alt="...">
+                    <img src="../images/user2.jpg" style="height: 40px;width: 40px;border-radius: 40px;margin-left: -25px;" alt="...">
+                    <img src="../images/user5.jpg" style="height: 40px;width: 40px;border-radius: 40px;margin-left: -25px;" alt="...">
+                </div>
+                <div class="col md 5">
+                    <span>35%</span>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                </div>
+            </div><hr>
+            <div class="row">
+                <div class="col md 5">
+                    <i class="fa-brands fa-github"></i>
+                    <div class="col md 5" style="float: right;margin-right: 70px;">GitHub Satellite</div>
+                </div>
+                <div class="col md 5">120</div>
+                <div class="col md 5">
+                    <button type="button" class="btn btn-light bg-info" style="color: white;font-weight: bold;">Low</button>
+                </div>
+                <div class="col md 5">
+                    <img src="../images/user5.jpg" style="height: 40px;width: 40px;border-radius: 40px;" alt="...">
+                    <img src="../images/user4.jpg" style="height: 40px;width: 40px;border-radius: 40px;margin-left: -25px;" alt="...">
+                    <img src="../images/user2.jpg" style="height: 40px;width: 40px;border-radius: 40px;margin-left: -25px;" alt="...">
+                </div>
+                <div class="col md 5">
+                    <span>75%</span>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                </div>
+            </div><hr>
+            <div class="row">
+                <div class="col md 5">
+                    <i class="fa-solid fa-staff-snake" style="color: green;"></i>
+                    <div class="col md 5" style="float: right;margin-right: 10px;">3D Character Modelling</div>
+                </div>
+                <div class="col md 5">89</div>
+                <div class="col md 5"></div>
+                <div class="col md 5">
+                    <img src="../images/user4.jpg" style="height: 40px;width: 40px;border-radius: 40px;" alt="...">
+                    <img src="../images/user2.jpg" style="height: 40px;width: 40px;border-radius: 40px;margin-left: -25px;" alt="...">
+                    <img src="../images/user5.jpg" style="height: 40px;width: 40px;border-radius: 40px;margin-left: -25px;" alt="...">
+                </div>
+                <div class="col md 5">
+                    <span>63%</span>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 63%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                </div>
+            </div><hr>
+            <div class="row">
+                <div class="col md 5">
+                    <i class="fa-solid fa-layer-group" style="color: blue;"></i>
+                    <div class="col md 5" style="float: right;margin-right: 50px;">WebApp Design</div>
+                </div>
+                <div class="col md 5">108</div>
+                <div class="col md 5"></div>
+                <div class="col md 5">
+                    <img src="../images/user4.jpg" style="height: 40px;width: 40px;border-radius: 40px;" alt="...">
+                    <img src="../images/user2.jpg" style="height: 40px;width: 40px;border-radius: 40px;margin-left: -25px;" alt="...">
+                    <img src="../images/user5.jpg" style="height: 40px;width: 40px;border-radius: 40px;margin-left: -25px;" alt="...">
+                </div>
+                <div class="col md 5">
+                    <span>100%</span>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                </div>
+            </div><hr>
+            <div class="row">
+                <div class="col md 5">
+                    <i class="fa-brands fa-github"></i>
+                    <div class="col md 5" style="float: right;margin-right: 30px;">Github Event Design</div>
+                </div>
+                <div class="col md 5">120</div>
+                <div class="col md 5">
+                    <button type="button" class="btn btn-light bg-info" style="color: white;font-weight: bold;">Low</button>
+                </div>
+                <div class="col md 5">
+                    <img src="../images/user4.jpg" style="height: 40px;width: 40px;border-radius: 40px;" alt="...">
+                    <img src="../images/user2.jpg" style="height: 40px;width: 40px;border-radius: 40px;margin-left: -25px;" alt="...">
+                    <img src="../images/user5.jpg" style="height: 40px;width: 40px;border-radius: 40px;margin-left: -25px;" alt="...">
+                </div>
+                <div class="col md 5">
+                    <span>75%</span>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                </div>
+            </div><hr>
+        </div>
+    </div>
+</body>
+</html>

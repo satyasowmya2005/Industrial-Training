@@ -1,0 +1,309 @@
+.a{
+    height: 350px;
+    width: 250px;
+    border: 1px solid black;
+    float: left;
+}
+.asub{
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.a1{
+    height: 100px;
+    width: 100px;
+    background-color: deepskyblue;
+    outline: 1px solid blue;
+}
+.a2{
+    height: 100px;
+    width: 100px;
+    background-color:lightgreen;
+    outline:  1px solid green;
+    position: static;
+}
+.a3{
+    height: 100px;
+    width: 100px;
+    background-color: deepskyblue;
+    outline: 1px solid blue;
+}
+.b{
+    height: 350px;
+    width: 250px;
+    border: 1px solid black;
+    float: left;
+}
+.bsub{
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.b1{
+    height: 100px;
+    width: 100px;
+    background-color: deepskyblue;
+    outline: 1px solid blue;
+}
+.b2{
+    height: 100px;
+    width: 100px;
+    background-color:lightgreen;
+    outline: 1px solid green;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.b3{
+    height: 100px;
+    width: 100px;
+    background-color: deepskyblue;
+    outline: 1px solid blue;
+}
+.c{
+    height: 350px;
+    width: 250px;
+    border: 1px solid black;
+    float: left;
+}
+.csub{
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.c1{
+    height: 100px;
+    width: 100px;
+    background-color: deepskyblue;
+    outline: 1px solid blue;
+}
+.c2{
+    height: 100px;
+    width: 100px;
+    background-color:lightgreen;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    outline: 1px solid green;
+}
+.c3{
+    height: 100px;
+    width: 100px;
+    background-color: deepskyblue;
+    outline: 1px solid blue;
+}
+.d{
+    height: 350px;
+    width: 250px;
+    border: 1px solid black;
+    float: left;
+}
+.dsub{
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.d1{
+    height: 100px;
+    width: 100px;
+    background-color: deepskyblue;
+    outline: 1px solid blue;
+}
+.d2{
+    height: 100px;
+    width: 100px;
+    background-color:lightgreen;
+    top: 0px;
+    right: 0px;
+    outline: 1px solid green;
+    position: fixed;
+}
+.d3{
+    height: 100px;
+    width: 100px;
+    background-color: deepskyblue;
+    outline: 1px solid blue;
+}
+.e{
+    height: 350px;
+    width: 250px;
+    border: 1px solid black;
+    float: left;
+}
+.esub{
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    overflow: scroll;
+}
+.e1{
+    height: 100px;
+    width: 100px;
+    background-color: deepskyblue;
+    outline: 1px solid blue;
+}
+.e2{
+    height: 100px;
+    width: 100px;
+    background-color:lightgreen;
+    top: 0px;
+    right: 0px;
+    outline: 1px solid green;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+}
+.e3{
+    height: 100px;
+    width: 100px;
+    background-color: deepskyblue;
+    outline: 1px solid blue;
+}
+.f{
+    height: 350px;
+    width: 250px;
+    border: 1px solid black;
+    float: left;
+}
+.fsub{
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    overflow: scroll;
+}
+.f1{
+    height: 100px;
+    width: 100px;
+    background-color: deepskyblue;
+    outline: 1px solid blue;
+}
+.f2{
+    height: 100px;
+    width: 100px;
+    background-color:lightgreen;
+    top: 0px;
+    right: 0px;
+    outline: 1px solid green;
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 0px;
+}
+.f3{
+    height: 100px;
+    width: 100px;
+    background-color: deepskyblue;
+    outline: 1px solid blue;
+}
+.g{
+    height: 350px;
+    width: 250px;
+    border: 1px solid black;
+    float: left;
+}
+.gsub{
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    overflow: auto;
+    overflow: scroll;
+}
+.gsub1{
+    height: 100px;
+    width: 400px;
+}
+.g1{
+    height: 100px;
+    width: 100px;
+    float: left;
+    background-color: deepskyblue;
+    outline: 1px solid blue;
+}
+.g2{
+    height: 100px;
+    width: 100px;
+    float: left;
+    background-color:lightgreen;
+    outline: 1px solid green;
+    position: sticky;
+    left: 0px;
+}
+.g3{
+    height: 100px;
+    width: 200px;
+    float: left;
+    background-color: deepskyblue;
+    outline: 1px solid blue;
+}
+.h{
+    height: 350px;
+    width: 250px;
+    border: 1px solid black;
+    float: left;
+}
+.hsub{
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    overflow: auto;
+    overflow: scroll;
+}
+.hsub1{
+    height: 100px;
+    width: 400px;
+}
+.h1{
+    height: 100px;
+    width: 100px;
+    float: left;
+    background-color: deepskyblue;
+    outline: 1px solid blue;
+}
+.h2{
+    height: 100px;
+    width: 100px;
+    float: left;
+    background-color:lightgreen;
+    outline: 1px solid green;
+    position: sticky;
+    right: 0px;
+}
+.h3{
+    height: 100px;
+    width: 100px;
+    float: left;
+    background-color: deepskyblue;
+    outline: 1px solid blue;
+}

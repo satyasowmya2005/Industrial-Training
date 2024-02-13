@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media queries</title>
+    <style>
+        #widthDisplay{
+            height: 30px;
+            width: 300px;
+            border: 2px solid black;
+            border-radius: 5px;
+            position: relative;
+            top: 300px;
+        }
+        p{
+            position: relative;
+            bottom: 10px;
+        }
+        body{
+            background-color: lightblue;
+        }
+        @media screen and (min-width:300px) and (max-width:400px){
+            body{
+                background-color:darksalmon;
+            }
+            div{
+                background-color: rgb(135, 224, 230);
+            }
+        }
+    </style>
+</head>
+<body>
+    <body>
+        <center>
+            <div id="widthDisplay">
+                <p><b>Media Queries</b></p>
+            </div>
+        </center>
+    </body>
+</body>
+</html>

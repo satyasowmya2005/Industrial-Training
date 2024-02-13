@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+}
+.main{
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+}
+.head{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+.a{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 280px;
+}
+.b{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 370px;
+}
+.c{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    float: left;
+    position: relative;
+    top: 450px;
+    right: 320px;
+}
+.d{
+    /* outline: 1px solid black; */
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    float: left;
+    position: relative;
+    top: 450px;
+    right: 220px;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    /* outline: 1px solid black; */
+    border-radius: 200px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    float: left;
+}
+.name{
+    height: 50px;
+    width: 150px;
+    /* outline: 1px solid black; */
+    float: right;
+    position: relative;
+    right: 10px;
+    top: 50px; 
+}
+.i1{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+/* .i2{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+} */
+.details{
+    height: 230px;
+    width: 250px;
+    border: 1px solid black;
+    position: relative;
+    left: 50px;
+    top: 150px; 
+}
+/* .vl{
+    border-left: 1px solid black;
+    height: 200px;
+    position: relative;
+    top: 150px;
+    left: 50px;
+} */
+.vl{
+        width: 1px;
+        height: 250px;
+        background: hsl(143, 52%, 59%);
+        position: relative;
+        bottom: 180px;
+        left: 50px;
+        /* margin:0px 40px 0px ; */
+        /* position: relative;
+        top: 50px; */
+}
+.cc{
+    width: 20px;
+    height: 20px;
+    background: #9ad0b1;
+    border: 1px solid green;
+    border-radius: 100px;
+    position: relative;
+    margin: 150px 40px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #one{
+            position: relative;
+            height: 150px;
+            width: 150px;
+            background-color: lightblue;
+            border: 1px solid black;
+            border-radius: 150px;
+            animation-name: testing;
+            animation-delay: 2s;
+            animation-duration: 5s;
+            animation-direction: normal;
+            animation-timing-function:ease-in-out;
+            /* animation: testing 5s ease-in-out; */
+        }
+        #two{
+            position: relative;
+            height: 150px;
+            width: 150px;
+            background-color: goldenrod;
+            border: 1px solid black;
+            border-radius: 150px;
+            animation-name: test;
+            animation-delay: 1s;
+            animation-duration: 4s;
+            animation-timing-function:ease-in-out;
+        }
+        #three{
+            position: relative;
+            height: 150px;
+            width: 150px;
+            background-color:cornflowerblue;
+            border: 1px solid black;
+            border-radius: 150px;
+            animation-name: tests;
+            animation-delay: 1s;
+            animation-duration: 4s;
+            animation-timing-function:ease-in-out;
+        }
+        @keyframes testing{
+            /* from{
+                background-color: lightblue;top: 0px;left: 0px;
+            }
+            to{
+                background-color: rgb(255, 21, 0);bottom: 0px;right: 0px;
+            } */
+            0%{
+                background-color: darkgoldenrod;top: 0px;left: 0px;
+            }
+            25%{
+                background-color: rgb(77, 165, 42);top: 0px;left: 0px;
+            }
+            50%{
+                background-color: cyan;top: 0px;left: 500px;
+            }
+            75%{
+                background-color:rgb(66, 47, 107);top: 300px;left: 500px;
+            }
+            100%{
+                background-color: rgb(247, 44, 3);top: 300px;left: 0px;
+            }
+        }
+        @keyframes test{
+            0%{
+                background-color: darkgoldenrod;top: 0px;left: 0px;
+            }
+            25%{
+                background-color: rgb(77, 165, 42);top: 0px;left: 0px;
+            }
+            50%{
+                background-color: cyan;top: 0px;left: 500px;
+            }
+            75%{
+                background-color:rgb(66, 47, 107);top: 300px;left: 500px;
+            }
+            100%{
+                background-color: rgb(247, 44, 3);top: 300px;left: 0px;
+            }
+        } 
+        @keyframes tests{
+            0%{
+                background-color: darkgoldenrod;top: 0px;left: 0px;
+            }
+            25%{
+                background-color: rgb(77, 165, 42);top: 0px;left: 0px;
+            }
+            50%{
+                background-color: blue;top: 0px;left: 500px;
+            }
+            75%{
+                background-color:rgb(66, 47, 107);top: 300px;left: 500px;
+            }
+            100%{
+                background-color: rgb(247, 44, 3);top: 300px;left: 0px;
+            }
+        } 
+    </style>
+</head>
+<body>
+    <center>
+        <h2>Animations in CSS</h2>
+    </center><hr>
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+</body>
+</html>

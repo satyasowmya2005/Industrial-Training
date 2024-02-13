@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+}
+.main{
+    height: 650px;
+    width: 100%;
+}
+.a{
+    height: 270px;
+    width: 250px;
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 170px;
+    /* outline: 1px solid black; */
+}
+.b{
+    height: 270px;
+    width: 250px;
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 220px;
+    background-color: rgb(234, 231, 252);
+}
+.c{
+    height: 270px;
+    width: 250px;
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 270px;
+    background-color:antiquewhite;
+}
+.d{
+    height: 270px;
+    width: 250px;
+    float: left;
+    position: relative;
+    top: 340px;
+    right: 575px;
+    background-color:rgb(255, 232, 237);
+}
+.e{
+    height: 270px;
+    width: 250px;
+    float: left;
+    position: relative;
+    top: 340px;
+    right: 530px;
+    background-color: rgb(236, 233, 253);
+}
+.f{
+    height: 270px;
+    width: 250px;
+    float: left;
+    position: relative;
+    top: 70px;
+    left: 770px;
+    background-color:rgb(255, 230, 235);
+}
+.hh2{
+    font-size: 30px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+.p1{
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+.b1{
+    height: 30px;
+    width: 100px;
+    color: white;
+    position: relative;
+    top: 70px;
+    left: 10px;
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+.i1{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    height: 100px;
+    width: 100px;
+}
+h4{
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+li{
+    position: relative;
+    top: 30px;
+}
+.b2{
+    height: 30px;
+    width: 130px;
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+.i2{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    height: 100px;
+    width: 100px;
+}
+.i3{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    height: 100px;
+    width: 100px;
+}
+.i4{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    height: 100px;
+    width: 100px;
+}
+.i5{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    height: 100px;
+    width: 100px;
+}
