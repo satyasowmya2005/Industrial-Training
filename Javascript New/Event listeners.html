@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event listeners</title>
+</head>
+<body>
+    <button id="my_button">Click here to change pic</button>
+    <script>
+        const newDiv=document.createElement('div');
+        newDiv.innerHTML='<h1>This is new division</h1>'
+        newDiv.style.cssText=`height:100px;
+                              width:100px;
+                              color:green;
+                              border-radius:30px;
+                              border:2px solid blue;`
+        const MyBtn=document.getElementById('my_button');
+        MyBtn.addEventListener('mouseover','MyFunc1');
+        MyBtn.addEventListener('mouseout','MyFunc2');
+
+        function MyFunc1()
+        {
+            newDiv.style.backgroundColor='green'
+        }
+    </script>
+</body>
+</html>

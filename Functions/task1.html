@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>Enter Name</label>
+    <input type="text" id="in1">
+    <br><br>
+    <label>Enter pin number</label>
+    <input type="text" id="in2">
+    <br><br>
+    <label>Enter branch</label>
+    <input type="radio" id="in3a" name="branch" value="cme">
+    <input type="radio" id="in3b" name="branch" value="ece">
+    <input type="radio" id="in3c" name="branch" value="ccn">
+    <label>Select Gender</label>
+    <input type="radio" id="in4a" name="gender" value="Male"/>
+    <input type="radio" id="in4b" name="gender" value="Female">
+    <label>Enter Password</label>
+    <input type="password" id="in5">
+    <br><br>
+    <button type="submit" onclick="getdetails()">Submit</button>
+    <script>
+        function getdetails(){
+            var x=document.getElementById("in1").value;
+            var y=document.getElementById("in2").value;
+            var z=document.getElementById("in3").value;
+            if(x.length<1){
+            alert("Input field is empty")
+        }
+        else if(y.length<1) {
+            alert("Input field is empty")
+        }
+        else if(z.length<1){
+            alert("Input field is empty")
+        }
+
+        else{
+            alert("Thank you")
+        }
+        }
+
+    </script>
+</body>
+</html>

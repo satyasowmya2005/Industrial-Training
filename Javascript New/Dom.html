@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DOM</title>
+</head>
+<body>
+    <h1 id="e_id">Heading tag</h1>
+    <span class="ClsId">This is span tag1.</span>
+    <br>
+    <span class="ClsId">This is span tag2.</span>
+    <script>
+        const ById=document.getElementById('e_id');
+        ById.style.color='red'
+        // console.log(ById)
+
+        const ClsId=document.getElementsByClassName('sp');
+        ClsId[1].style.color='blue'
+    </script>
+</body>
+</html>

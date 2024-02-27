@@ -1,0 +1,42 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom task</title>
+</head>
+<body>
+    <button id="my_button">Click me</button>
+    <img id="img_id" src="../images/John profile.png" alt="">
+    <script>
+        const newBtn=document.getElementById('my_button');
+        newBtn.addEventListener('onclick','disp_img')
+        function disp_img()
+        {
+            document.getElementById('#img_id')
+        }
+    </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="../images/John profile.png" alt="" height="100" width="100" id="im">
+    <button id="change">change image</button>
+    <script>
+        let ch=document.getElementById('change')
+        ch.addEventListener('click',func)
+        function func(){
+            let im=document.getElementById('im')
+            im.setAttribute('src','../images/user2.jpg')
+        }
+    </script>
+</body>
+</html>

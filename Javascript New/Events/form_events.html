@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form_id">
+        <label>Enter name</label>
+        <input type="text" id="fname" onchange="changeText()">
+        <br><br>
+        <label>Select College</label>
+        <select style="width: 300;height: 30px;" onchange="sample(this.value)">
+            <option>--Select College--</option>
+            <option value="AEC">AEC</option>
+            <option value="ACET">ACET</option>
+            <option value="ACOE">ACOE</option>
+        </select>
+        <p id="p_id"></p>
+        <input type="button" onclick="submitForm()" value="Submit">
+        <input type="button" onclick="resetForm()" value="Reset">
+    </form>
+    <script>
+        function submitForm(){
+            document.getElementById(form_id).submit();  
+        }
+        function resetForm(){
+            document.getElementById(form_id).reset();
+        }
+        function changeText(){
+            const chText=document.getElementById("fname");
+            fname.value=fname.value.toUppercase();
+        }
+        function sample(clg_name){
+            document.getElementById("p_id").innerText=clg_name;
+        }
+    </script>
+</body>
+</html>

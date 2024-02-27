@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods</title>
+</head>
+<body>
+    <script>
+        let str='Full Stack Development'
+        let str1='Trainee'
+        let str2='Thub'
+         function toPrint(str){
+            document.write(str+'<br>')
+         }
+        toPrint('The string is : '+str)
+        toPrint('Length of String is : '+str.length)
+        toPrint('Char At : '+str.charAt(5))
+        toPrint('Index Of : '+str.indexOf('D'))
+        toPrint('Last Index Of : '+str.lastIndexOf('e'))
+        toPrint('String to Upper : '+str.toUpperCase())
+        toPrint('String to Upper : '+str.toLowerCase())
+        toPrint('Concatenating String : '+str.concat(str1))
+        toPrint('Concatenating 2 strings : '+str.concat(str1,str2))
+        // toPrint('Splitting the String : '+str.split(""))
+        console.log(str.split(""))
+        console.log(str.trim())
+        
+    </script>
+</body>
+</html>

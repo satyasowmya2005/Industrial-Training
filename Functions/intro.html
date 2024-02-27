@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions in JS</title>
+</head>
+<body>
+    <h1>Functions in Javascript</h1>
+    <button type="button" onclick="myFunction()">Click here</button>
+    <input type="text" id="name_id"/>
+    <button type="button" onclick="getname()">Get name</button>
+    <script type="text/javascript">
+        // myFunction()
+        function myFunction(){
+            document.write("Welcome to this page...")
+        }
+        myFunction3(10)
+        function myFunction3(a){
+            document.write("Value is:"+a)
+        }
+        // myFunction2(10,20)
+        // function myFunction2(a,b){
+        //     document.write(a*b)
+        // }
+        // Arrow function
+        const add = (a,b) =>{
+           console.log(a+b)
+        }
+        add(10,20)
+        function getname(){
+            let x=document.getElementById("name_id").value;
+            alert(x)
+        }
+        const display = (a,b) =>{
+            console.log(a+b)
+        }
+        display('Hari','Kiran')
+        display(1,true)
+        display(true,"true")
+        display(true,1)//1+1
+        display(true,false)//0+1
+        display(0,"false")//0false
+        setTimeout(()=>{
+            document.write("Displaying after 5 seconds")
+        },5000)
+            const x=function(){
+               document.write("Helloo");
+            }
+            // setTimeout(test,3000)//call by function
+            // function test(){
+            //      document.write("Displaying after 3 seconds")
+            // }
+            
+    </script>
+</body>
+</html>

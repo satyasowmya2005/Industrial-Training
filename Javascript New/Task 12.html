@@ -1,0 +1,83 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="myFunction">Click here</button>
+    <script>
+        const names=['Siva','Raju','Ravi','Suresh','Ramesh','Siva','Raju','Ramesh','Gopi'];
+        function myFunction{
+            for(let i=0;i<names.length;i++)
+            {
+                names.item(i).innerHTML=i+1;
+            }
+        }
+    </script>
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html> -->
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Task</title>
+    <style>
+        .a{
+            height: 180px;
+            width: 100%;
+        }
+        .di{
+            height: 50px;
+            width: 33%;
+            float: left;
+            outline: 2px solid;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function myFunction() {
+        //   var collection = document.getElementsByClassName("di");
+          var names=['Siva','Raju','Ravi','Suresh','Ramesh','Siva','Raju','Ramesh','Gopi'];
+          for (let i = 0; i < names.length; i++) {
+          names.item(i).innerText=i+1;
+   }
+   }
+    </script>
+</head>
+<body>
+    <div class="a">
+        <div class="di"></div>
+        <div class="di"></div>
+        <div class="di"></div>
+        <div class="di"></div>
+        <div class="di"></div>
+        <div class="di"></div>
+        <div class="di"></div>
+        <div class="di"></div>
+        <div class="di"></div>
+    </div>
+    <br>
+    <button onclick="myFunction()">click here</button>
+</body>
+</html>

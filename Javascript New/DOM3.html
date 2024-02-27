@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom</title>
+</head>
+<body id="unique">
+    <p class="qs">This is para1</p>
+    <p>This is para2</p>
+    <p>This is para3</p>
+    <h2 id="Hid">Heading1</h2>
+    <h2 id="Hid">Heading1</h2>
+    <span class="sId">Span tag-1;</span>
+    <span class="sId">Span tag-2;</span>
+    <a href="">CLICK HERE</a>
+    <!-- <a id="my_anch">Click to open google</a> -->
+    <button id="button1">Click here</button>
+    <script>
+        let abc=document.querySelector('.qs').style.backgroundColor='aqua';
+        //by id
+        let heads=document.querySelectorAll('#Hid')
+        heads[0].style.backgroundColor='hotpink'
+        heads[1].style.backgroundColor='deepskyblue'
+        //by class
+        let spans=document.querySelectorAll('.sId')
+        spans[0].style.fontSize='30px'
+        spans[1].style.fontFamily='cursive'
+        spans[1].style.fontWeight='bold'
+        //by tag name
+        let anchors=document.querySelectorAll('a')
+        a.style.color='red'
+        // for(let i=0;i<xyz.length)
+        // {
+        //     var x=document.style.fontSize='50px'
+        // }
+        // const nodes=document.querySelectorAll('h,p,span');
+        // for(let i=0;i<nodes;i++)
+        // {
+        //     nodes[i].document.style.fontFamily='cursive'
+        // }
+
+        const newButton=document.getElementById('#button1')
+        newButton.setAttribute('onclick','https://youtube.com')
+        // newButton.setAttribute('target','_blank')
+    </script>
+    <script>
+        const newBtn=document.createElement('button');
+        newBtn.setAttribute('id','btn_id');
+        const newDiv=document.createElement('div');
+        newBtn.innerText='click me';
+        newDiv.innerHTML='<h1>This is new division</h1>'
+        newDiv.style.cssText=`height:100px;
+                              width:100px;
+                              color:green;
+                              border-radius:30px;
+                              border:2px solid blue;`
+        const view=document.append('newDiv');
+
+    </script>
+</body>
+</html>

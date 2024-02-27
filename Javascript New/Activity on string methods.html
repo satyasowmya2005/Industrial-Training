@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS String methods</title>
+</head>
+<body>
+    <script>
+        let str="Full Stack";
+        function toPrint(str){
+            document.write(str+'<br>')
+         }
+         //substr()
+        toPrint("Substr of string is:"+str.substr(0,4));
+        //substring()
+        toPrint("Substring of string is:"+str.substr(4,8));
+        //replace()
+        toPrint("Replacing string:"+str.replace('Stack','Stack Development'));
+        //search()
+        toPrint("Searching for string:"+str.search('c'));
+        //toLocaleLowercase()
+        toPrint("String to locale lowercase:"+str.toLocaleLowerCase());
+        //toLocaleUppercase()
+        toPrint("String to locale uppercase:"+str.toLocaleUpperCase());
+        //indexof()
+        toPrint("Index of S is:"+str.indexOf("S"));
+        //includes()
+        toPrint("'l' is present in string:"+str.includes("l"));
+        //slice()
+        toPrint("String slicing:"+str.slice(0,3));
+        //concat()
+        toPrint("Concatenating String:"+str.concat(" Development"));
+        //lastIndexOf()
+        toPrint("Last index value is:"+str.lastIndexOf());
+        //charCodeAt()
+        toPrint("Char Code At index 7 is:"+str.charCodeAt(7));
+        //trim()
+        toPrint("Trimmed string is:"+str.trim());
+        //charAt()
+        toPrint("Char at 9 is:"+str.charAt(9));
+        //valueOf()
+        toPrint("Value of:"+str.valueOf(3));
+        //split()
+        toPrint("Splitting of string:"+str.split(" "));
+        //toString()
+        toPrint("To string:"+str.toString());
+        //match()
+        toPrint("Match string:"+str.match("S"));
+    </script>
+</body>
+</html>

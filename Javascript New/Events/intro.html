@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline</title>
+</head>
+<body>
+    <button onclick="sample()">Click me</button>
+    <!--1st way inline -->
+    <br>
+    <b id="sp_id"></b>
+    <script type="text/javascript">
+        function sample(){
+            document.body.style.backgroundColor='aqua';
+            document.getElementById("sp_id").innerText='This is a onclick event.';
+        }
+    </script>
+</body>
+</html>
